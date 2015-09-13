@@ -1,6 +1,4 @@
-body {
-}
-
+/*Head Hero*/
 div.menu {
   width: 100%;
   display: block;
@@ -11,13 +9,43 @@ div.menu {
 div.hero {
   width: 100%;
   display: block;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   text-align: center;
   height: 300px;
-  padding: 20px;
+}
+
+div.menu,.hero {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3a/London_from_a_hot_air_balloon.jpg");
+}
+
+nav {
+  font-family: "Arial Black", sans-serif;
+  padding-top: 20px;
+  font-size: 20px;
 }
 
 h1  {
   font-family: "Arial Black", sans-serif;
+  font-size: 80px;
+  color: white;
+  padding-top: 90px;
+
+}
+
+/* Remainder Body*/
+
+h2  {
+  font-family: "Plantin", sans-serif;
+}
+
+img {
+  width: 350px;
+}
+
+p {
+  font-family: "Plantin", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  width: 700px;
 }
