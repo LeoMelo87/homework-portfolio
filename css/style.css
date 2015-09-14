@@ -21,7 +21,6 @@ div.hero {
   text-align: center;
   background-image: url("https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/11891090_1180512295297327_8622050961014743384_n.jpg?oh=6a49280d41f421aa2dde0a64a7ea0001&oe=56662627");
   background-size: cover;
-  background-blend-mode: difference;
   margin: 0;
   padding: 0;
 }
@@ -68,7 +67,7 @@ img {
   width: 300px;
   border: 3px solid black;
   padding: 2px;
-  margin-left: 475px;
+  margin-left:
 }
 
 div.about {
@@ -133,4 +132,10 @@ p.portfolio1 {
   padding-bottom: 0px;
   padding-left: 40px;
 
+}
+
+img.portfolioimg {
+  float: right;
+  width: 400px;
+  overflow: auto;
 }
