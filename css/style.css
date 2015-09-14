@@ -63,11 +63,10 @@ h2  {
   text-align: center;
 }
 
-img {
+img.avatar {
   width: 300px;
   border: 3px solid black;
   padding: 2px;
-  margin-left:
 }
 
 div.about {
@@ -110,7 +109,7 @@ h3  {
   width: 500px;
   font-family: "Plantin", sans-serif;
   font-size: 15px;
-  text-align: justify;
+  text-align: center;
   letter-spacing: 1px;
   line-height: 30px;
   padding-top: 10px;
@@ -118,6 +117,7 @@ h3  {
   padding-left: 40px;
   padding-bottom: 5px;
   font-weight: bold;
+  margin: auto;
 }
 
 p.portfolio1 {
@@ -131,11 +131,13 @@ p.portfolio1 {
   padding-right: 20px;
   padding-bottom: 0px;
   padding-left: 40px;
+  margin: auto;
 
 }
 
-img.portfolioimg {
-  float: right;
-  width: 400px;
-  overflow: auto;
+img.relaxr {
+  width: 500px;
+  margin: auto;
+  padding-left: 40px;
+  border: 2px solid black;
 }
